@@ -122,7 +122,7 @@ public class Zadatak10 {
     }
 
     @AfterMethod
-    public void shutDriver(){
+    public void teardown(){
         wd.quit();
     }
 
